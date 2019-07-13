@@ -58,4 +58,8 @@ class Song
     song 
   end 
   
-  def self.
+  def self.destry_all 
+    self.class.all.clear 
+  end 
+  
+end 
